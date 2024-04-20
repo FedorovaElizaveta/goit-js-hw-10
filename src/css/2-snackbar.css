@@ -1,0 +1,53 @@
+input[name='delay'] {
+  display: block;
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-size: 16px;
+  padding-left: 15px;
+  margin-top: 8px;
+}
+
+input[name='delay']:hover {
+  border-color: #000;
+}
+
+input[name='delay']:focus {
+  border-color: #4e75ff;
+  outline: 0px solid transparent;
+}
+
+fieldset {
+  width: 350px;
+  height: 64px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+fieldset:hover,
+fieldset:focus {
+  border-color: #000;
+}
+
+fieldset label {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+form button {
+  width: 378px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  color: #fff;
+}
+
+form button:hover,
+form button:focus {
+  background-color: #6c8cff;
+}

@@ -27,3 +27,19 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+.container {
+  width: 1260px;
+  margin: 20px;
+  padding: 30px;
+}
+
+.task-heading {
+  margin-bottom: 10px;
+}
+
+.task-list {
+  padding-left: 30px;
+  list-style: circle;
+  font-size: 22px;
+}
